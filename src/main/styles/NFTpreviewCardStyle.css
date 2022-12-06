@@ -1,0 +1,193 @@
+.NFTCard {
+    background: #0D192C;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+
+.Card {
+    height: 596px;
+    width: 350px;
+    border-radius: 15px;
+    background: #15263F;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.0952917);
+}
+
+.CardImage {
+    height: 302px;
+    width: 302px;
+    margin: 24px;
+    border-radius: 8px;
+}
+
+.CardHeaderText {
+    text-align: left;
+    color: white;
+    margin-left: 24px;
+    font-family: Outfit, serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+
+.CardHeaderText:hover, .CardFooterSecondPart:hover {
+    cursor: pointer;
+    color: #00FFF8;
+}
+
+.CardBodyText {
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 24px;
+    color: #8BACD9;
+}
+
+.CardMiddleSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+}
+
+.CardEtheriumImage {
+    height: 12.431249618530273px;
+    width: 10.996140480041504px;
+    margin-right: 5px;
+}
+
+.MainLogoSpace {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    height: 302px;
+    width: 302px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 24px;
+    height: 302px;
+    width: 302px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 140, 186, 0.11);
+}
+
+.MainLogoSpace:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.CardEtheriumImage:hover {
+    z-index: 1;
+    background: url("icon-view.svg");
+}
+
+.CardCost {
+    height: 20px;
+    width: 75px;
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+}
+
+.CardClockIcon {
+    height: 13.333333015441895px;
+    width: 13.333333015441895px;
+    border-radius: 0;
+    color: #8BACD9;
+    margin-right: 5px;
+}
+
+.CardClockDay {
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    height: 20px;
+    width: 73px;
+}
+
+.CardLine {
+    height: 1px;
+    width: 302px;
+    background: #2E405A;
+}
+
+.CardFooter {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 24px;
+}
+
+.CardFooterImage {
+    height: 33px;
+    width: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.CardFooterText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardFooterFirstPart {
+    height: 20px;
+    width: 81px;
+    font-family: Outfit, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    font-style: normal;
+    color: #8BACD9;
+}
+
+.CardFooterSecondPart {
+    height: 20px;
+    width: 93px;
+    font-family: Outfit, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}

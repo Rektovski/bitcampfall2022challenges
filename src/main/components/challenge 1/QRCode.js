@@ -1,5 +1,5 @@
-import "../styles/QRCode.css";
-import qrlogo from "../images/image-qr-code.png";
+import "../../styles/QRCode.css";
+import qrlogo from "../../images/challenge 1/image-qr-code.png";
 
 export default function QRCode() {
     return (
