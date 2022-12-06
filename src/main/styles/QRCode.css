@@ -1,0 +1,50 @@
+.QRCode {
+    background: #d9e6f1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    place-items: center;
+}
+
+.QRCard {
+    background: white;
+    padding: 16px;
+    text-align: center;
+    width: 320px;
+    height: 497px;
+    border-radius: 10px;
+}
+
+.QRCardImage {
+    border-radius: 10px;
+    height: 288px;
+    left: 576px;
+}
+
+.QRHeaderText {
+    padding: 20px;
+    height: 56px;
+    font-family: 'Outfit', "Comic Sans MS", "monospace", Serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.72px;
+    width: 288px;
+}
+
+.QRFooterText {
+    font-family: 'Outfit', "Comic Sans MS", "monospace", Serif;
+    padding: 20px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+    color: #7D889E;
+}
