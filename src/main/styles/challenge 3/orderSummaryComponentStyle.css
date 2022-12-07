@@ -1,0 +1,220 @@
+.OrderSummaryComponent {
+    background: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+}
+
+.OrderCardMainImage {
+    position: absolute;
+    border-radius: 0;
+}
+
+.OrderCardMainImage {
+    position: absolute;
+    height: 437px;
+    width: 100vw;
+    border-radius: 0;
+}
+
+.orderCardSpace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+.orderCard {
+    width: 450px;
+    height: 600px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+
+.orderCardFirstImage {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.orderHeaderText {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Red Hat Display', serif;
+    color: #1F2E55;
+    margin: 14px 0 14px 0;
+}
+
+.orderMiddleSpace {
+    margin: 12px 28px 28px 28px;
+}
+
+.orderMiddleHeaderText {
+    height: 78px;
+    font-family: 'Red Hat Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    padding: 5px 40px 5px 40px;
+}
+
+.orderMiddleFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #F7F9FF;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+
+.orderMiddleFooterLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderMiddleFooterImage {
+    background: #DFE6FB;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.OrderMiddlePlan {
+    font-family: 'Red Hat Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+
+.orderMiddleCost {
+    font-family: 'Red Hat Display', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.orderMiddleAnchorChange {
+    font-family: 'Red Hat Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    cursor: pointer;
+}
+
+.orderMiddleAnchorChange:hover {
+    color: #766CF1;
+}
+
+.orderBottomSpace {
+    text-align: center;
+}
+
+.orderBottomButton {
+    background: #382AE1;
+    box-shadow: 0 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    height: 50px;
+    width: 354px;
+    border: unset;
+}
+
+.orderBottomButtonText {
+    font-family: 'Red Hat Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.orderBottomText {
+    font-family: 'Red Hat Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 20px;
+    width: 96px;
+    transition: all 1s ease-in-out;
+}
+
+.orderBottomText:hover {
+    transition: .3s;
+    color: #1F2E55;
+}
+
+.orderBottomCancelCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+
+
+    .orderCard {
+        height: 567px;
+        width: 327px;
+        border-radius: 20px;
+
+    }
+    .orderHeaderText {
+        font-size: 22px;
+    }
+
+    .orderMiddleHeaderText {
+        padding: 0;
+    }
+
+    .orderMiddleFooter {
+        margin-top: 40px;
+    }
+
+    .orderMiddleFooterImage {
+        height: 48px;
+        width: 48px;
+    }
+
+    .orderMiddlePlan, .orderMiddleCost {
+        font-size: 14px;
+    }
+
+    .orderMiddleAnchorChange {
+        font-size: 13px;
+    }
+
+    .orderMiddleFooter {
+        margin-top: 20px;
+    }
+
+    .orderBottomButton {
+        height: 50px;
+        width: 279px;
+        border-radius: 11px;
+    }
+
+    .orderBottomButtonText, .orderBottomText {
+        font-size: 15px;
+    }
+}
+
+
+

@@ -1,4 +1,4 @@
-import "../../styles/QRCode.css";
+import "../../styles/challenge 1/QRCode.css";
 import qrlogo from "../../images/challenge 1/image-qr-code.png";
 
 export default function QRCode() {

@@ -1,4 +1,4 @@
-import "../../styles/NFTpreviewCardStyle.css";
+import "../../styles/challenge 2/NFTpreviewCardStyle.css";
 import cardImage from "../../images/challenge 2/image-equilibrium.jpg";
 import etheriumLogo from "../../images/challenge 2/icon-ethereum.svg";
 import clockIcon from "../../images/challenge 2/icon-clock.svg";
