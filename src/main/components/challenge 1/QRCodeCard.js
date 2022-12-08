@@ -1,7 +1,7 @@
-import "../../styles/challenge 1/QRCode.css";
+import "../../styles/challenge 1/QRCodeStyle.css";
 import qrlogo from "../../images/challenge 1/image-qr-code.png";
 
-export default function QRCode() {
+export default function QRCodeCard() {
     return (
         <>
             <div className={'QRCode'}>
