@@ -11,6 +11,8 @@ export default function App() {
         <div className="App">
             <BrowserRouter>
                 <Routes>
+
+                    <Route path={""} element={<NavigationBar/>}></Route>
                     <Route path={"/qrcodecard"} element={<QRCodeCard/>}></Route>
                     <Route path={"/nftpreviewcard"} element={<NFTpreviewCard/>}></Route>
                     <Route path={"/ordersummarycard"} element={<OrderSummaryComponent/>}></Route>
@@ -18,7 +20,6 @@ export default function App() {
                 </Routes>
             </BrowserRouter>
 
-            <NavigationBar/>
 
 
         </div>
