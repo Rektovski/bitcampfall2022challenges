@@ -1,0 +1,150 @@
+.ProfileCardComponent {
+    background: #19A1AE;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.TopBall {
+    position: fixed;
+    left: -25vw;
+    top: -80vh;
+    transform: rotate(20deg);
+}
+
+.BottomBall {
+    position: fixed;
+    left: 45vw;
+    top: 50vh;
+    transform: rotate(20deg);
+}
+
+@media (min-width: 1400px) {
+    .TopBall {
+        top: -60vh;
+        left: -10vw;
+    }
+
+    .BottomBall {
+        left: 50vw;
+        top: 50vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .TopBall {
+        top: -90vh;
+        left: -200vw;
+    }
+
+    .BottomBall {
+        left: 30vw;
+        top: 50vh;
+    }
+}
+
+.ProfileCardSpace {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+.ProfileCard {
+    height: 374px;
+    width: 350px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.504835);
+}
+
+.ProfileCardBackgroundImage {
+    background: #41CBD3;
+    border-radius: 15px 15px 0 0;
+}
+
+.ProfileCardImage {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: calc(50% - 110px / 2);
+    top: calc(50% - 110px / 2 - 47px);
+    border: 5px solid #FFFFFF;
+    border-radius: 100%;
+}
+
+.ProfileHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.ProfileName {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+    margin-right: 10px;
+}
+
+.ProfileAge {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #6B7082;
+
+}
+
+.ProfileLocation {
+    position: absolute;
+    height: 14px;
+    left: 42.86%;
+    right: 42.86%;
+    top: calc(50% - 14px / 2 + 63px);
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+}
+
+.ProfileFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileFooterHeader {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+    padding-bottom: 6px;
+}
+
+.ProfileFooterBottom {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+}
