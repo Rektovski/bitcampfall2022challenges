@@ -15,4 +15,8 @@ export const projectsList = [
         name: 'Profile',
         link: "profilecard"
     },
+    {
+        name: "Skilled Elearning Landing Page",
+        link: "skilledelearninglandingpage"
+    }
 ]

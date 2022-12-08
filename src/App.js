@@ -5,6 +5,7 @@ import NFTpreviewCard from "./main/components/challenge 2/NFTpreviewCard";
 import OrderSummaryComponent from "./main/components/challenge 3/OrderSummaryComponent";
 import ProfileCardComponent from "./main/components/challenge 4/ProfileCardComponent";
 import NavigationBar from "./main/components/NavigationBar";
+import SkilledElearningLandingPage from "./main/components/challenge 5/SkilledElearningLandingPage";
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                     <Route path={"/nftpreviewcard"} element={<NFTpreviewCard/>}></Route>
                     <Route path={"/ordersummarycard"} element={<OrderSummaryComponent/>}></Route>
                     <Route path={"/profilecard"} element={<ProfileCardComponent/>}></Route>
+                    <Route path={"/skilledelearninglandingpage"} element={<SkilledElearningLandingPage/>}></Route>
                 </Routes>
             </BrowserRouter>
 
