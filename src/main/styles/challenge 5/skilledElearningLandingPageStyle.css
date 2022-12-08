@@ -1,0 +1,281 @@
+.SkilledElearningLandingPageHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+.HeaderRightTextSpace {
+    background: #13183F;
+    border-radius: 28px;
+    transition: all .3s ease-in-out;
+}
+
+.HeaderRightTextSpace:hover {
+    cursor: pointer;
+    transition: .3s;
+    background: #666CA3;
+    border-radius: 28px;
+}
+
+.HeaderRightText {
+    padding: 10px 30px;
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: all 1s ease-in-out;
+}
+
+.HeaderRightText:hover {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+.HeaderLeftLogo {
+    height: 27.68400001525879px;
+    width: 111.16799926757812px;
+}
+
+.LandingPageHeader {
+    position: relative;
+    top: -200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LandingPageHeaderLeftHeader {
+    margin-top: 130px;
+    height: 143px;
+    width: 457px;
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 44px;
+    color: #13183F;
+    margin-bottom: 20px;
+}
+
+.LandingPageHeaderLeftMiddle {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    height: 84px;
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+.LandingPageHeaderLeftFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    height: 63px;
+    width: 167px;
+    transition: all .3s ease-in-out;
+}
+
+.LandingPageHeaderLeftFooter:hover {
+    transition: .3s;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+}
+
+.LandingPageHeaderLeftFooterText {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.LandingPageHeaderLeftFooterText:hover {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.LandingPageHeaderRight {
+    position: relative;
+}
+
+.LandingPageHeaderRightImage {
+    position: relative;
+    width: 991.63px;
+    height: 936.92px;
+    left: 4vw;
+    overflow: hidden;
+}
+
+.LandingPageMiddle {
+    position: relative;
+    top: -100px;
+}
+
+.firstCard {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+}
+
+.firstCardText {
+    margin: 40px 0 0 20px;
+    top: calc(50% - 120px/2 - 37px);
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.nextCard {
+    border-radius: 15px;
+    border: 1px solid;
+    background: #FFFFFF;
+    box-shadow: 0 25px 50px rgba(6, 22, 141, 0.0442381);
+}
+
+.nextCardImage {
+    position: relative;
+    top: -28px;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 100%;
+}
+
+.nextCardName {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    color: #13183F;
+    margin-bottom: 20px;
+}
+
+.nextCardDescription {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin-bottom: 40px;
+}
+
+.nextCardFooter {
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    transition: all .3s ease-in-out;
+}
+
+.nextCardFooter:hover {
+    transition: .3s;
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFA7C3;
+    cursor: pointer;
+}
+
+.LandingPageFooter {
+    background: #13183F;
+}
+
+.LandingPageFooterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.LandingPageFooterButton {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+}
+
+.LandingPageFooterButtonText {
+    padding: 10px 30px;
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.LandingPageFooterButtonText:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+}
+
+@media (max-width: 1000px) {
+    .LandingPageHeaderLeftHeader {
+        height: 101px;
+        width: 343px;
+        left: 16px;
+        top: 102px;
+        font-size: 40px;
+    }
+
+    .LandingPageHeaderLeftMiddle {
+        height: 78px;
+        width: 343px;
+        left: 16px;
+        top: 229px;
+    }
+
+    .LandingPageHeaderRightImage {
+        height: 253px;
+        width: 253px;
+        border-radius: 158.5px;
+        text-align: center;
+        left: 0;
+    }
+
+    .LandingPageHeader {
+        position: relative;
+        top: -100px;
+        padding: 10px;
+        display: unset;
+    }
+
+    .LandingPageHeaderRight {
+        text-align: center;
+    }
+}
