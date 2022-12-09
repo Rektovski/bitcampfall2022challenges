@@ -10,20 +10,20 @@ import SkilledElearningLandingPage from "./main/components/challenge 5/SkilledEl
 export default function App() {
     return (
         <div className="App">
-            <BrowserRouter>
-                <Routes>
+            {/*<BrowserRouter>*/}
+            {/*    <Routes>*/}
 
-                    <Route path={""} element={<NavigationBar/>}></Route>
-                    <Route path={"/qrcodecard"} element={<QRCodeCard/>}></Route>
-                    <Route path={"/nftpreviewcard"} element={<NFTpreviewCard/>}></Route>
-                    <Route path={"/ordersummarycard"} element={<OrderSummaryComponent/>}></Route>
-                    <Route path={"/profilecard"} element={<ProfileCardComponent/>}></Route>
-                    <Route path={"/skilledelearninglandingpage"} element={<SkilledElearningLandingPage/>}></Route>
-                </Routes>
-            </BrowserRouter>
+            {/*        <Route path={""} element={<NavigationBar/>}></Route>*/}
+            {/*        <Route path={"/qrcodecard"} element={<QRCodeCard/>}></Route>*/}
+            {/*        <Route path={"/nftpreviewcard"} element={<NFTpreviewCard/>}></Route>*/}
+            {/*        <Route path={"/ordersummarycard"} element={<OrderSummaryComponent/>}></Route>*/}
+            {/*        <Route path={"/profilecard"} element={<ProfileCardComponent/>}></Route>*/}
+            {/*        <Route path={"/skilledelearninglandingpage"} element={<SkilledElearningLandingPage/>}></Route>*/}
+            {/*    </Routes>*/}
+            {/*</BrowserRouter>*/}
 
 
-
+            <SkilledElearningLandingPage/>
         </div>
     );
 }

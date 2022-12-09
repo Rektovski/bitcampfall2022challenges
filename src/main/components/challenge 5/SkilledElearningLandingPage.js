@@ -5,8 +5,10 @@ import logoLight from "../../images/challenge 5/logo-light.svg";
 import imageHero from "../../images/challenge 5/image-hero-desktop.png";
 import imageHeroMobile from "../../images/challenge 5/image-hero-mobile.png";
 import {skilledElearningCardList} from "./skilledElearningCardList";
+import Grid from '@mui/material/Grid';
 
 export default function SkilledElearningLandingPage() {
+
     return (
         <>
             <div>
@@ -41,26 +43,28 @@ export default function SkilledElearningLandingPage() {
                         </div>
                     </div>
 
+
+
                     <Container className={'LandingPageMiddle'}>
-                        <Row>
-                            <Col className={'firstCard g-5'} sm={12} md={6} lg={4} xl={4} xxl={4}>
-                                <div className={'firstCardText'}>
-                                    Check out our most popular courses!
-                                </div>
-                            </Col>
-                            {
-                                skilledElearningCardList.map((item, id) => (
-                                    <Col className={'nextCard g-5'} key={id} sm={12} md={6} lg={4} xl={4} xxl={4}>
-                                        <div style={{marginLeft: 15, marginRight: 15}}>
-                                            <img className={'nextCardImage'} src={item.image} alt={'cardFoto'}/>
-                                            <div className={'nextCardName'}>{item.name}</div>
-                                            <div className={'nextCardDescription'}>{item.desc}</div>
-                                            <div className={'nextCardFooter'}>Get Started</div>
-                                        </div>
-                                    </Col>
-                                ))
-                            }
-                        </Row>
+                            <Row>
+                                <Col  sm={12} md={6} lg={4} xl={4} xxl={4} className={'firstCard  g-5'}>
+                                    <div className={'firstCardText'}>
+                                        Check out our most popular courses!
+                                    </div>
+                                </Col>
+                                {
+                                    skilledElearningCardList.map((item, id) => (
+                                        <Col key={id} sm={12} md={6} lg={4} xl={4} xxl={4} className={'nextCard g-5'} >
+                                            <div style={{marginLeft: 15, marginRight: 15}}>
+                                                <img className={'nextCardImage'} src={item.image} alt={'cardFoto'}/>
+                                                <div className={'nextCardName'}>{item.name}</div>
+                                                <div className={'nextCardDescription'}>{item.desc}</div>
+                                                <div className={'nextCardFooter'}>Get Started</div>
+                                            </div>
+                                        </Col>
+                                    ))
+                                }
+                            </Row>
                     </Container>
                 </Container>
                 <div className={'LandingPageFooter'}>
