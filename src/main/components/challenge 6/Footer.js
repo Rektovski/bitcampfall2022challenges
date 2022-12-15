@@ -1,7 +1,7 @@
-import "../../styles/challenge 6/footerStyle.css";
-import social1 from "../../images/challenge 6/icon-facebook.svg";
-import social2 from "../../images/challenge 6/icon-instagram.svg";
-import social3 from "../../images/challenge 6/icon-twitter.svg";
+import "../../design/challenge 6/footerStyle.css";
+import social1 from "../../assets/challenge 6/icon-facebook.svg";
+import social2 from "../../assets/challenge 6/icon-instagram.svg";
+import social3 from "../../assets/challenge 6/icon-twitter.svg";
 
 export default function Footer() {
     return (

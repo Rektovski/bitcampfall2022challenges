@@ -1,7 +1,7 @@
-import "../../styles/challenge 7/headerStyle.css";
-import mainBackgroundBall from "../../images/challenge 7/bg-main-desktop.png";
-import topRightImage from "../../images/challenge 7/bg-pattern-1.svg";
-import equalizerLogo from "../../images/challenge 7/logo.svg";
+import "../../design/challenge 7/headerStyle.css";
+import mainBackgroundBall from "../../assets/challenge 7/bg-main-desktop.png";
+import topRightImage from "../../assets/challenge 7/bg-pattern-1.svg";
+import equalizerLogo from "../../assets/challenge 7/logo.svg";
 
 export default function Header() {
     return (

@@ -1,5 +1,5 @@
-import "../../styles/challenge 6/locationStyle.css";
-import leftIcon from "../../images/challenge 6/icon-arrow-left.svg";
+import "../../design/challenge 6/locationStyle.css";
+import leftIcon from "../../assets/challenge 6/icon-arrow-left.svg";
 import {AiFillFacebook as FaceIcon, AiOutlineInstagram as InstaIcon} from "react-icons/ai";
 import {CiTwitter as TwitIcon} from "react-icons/ci";
 

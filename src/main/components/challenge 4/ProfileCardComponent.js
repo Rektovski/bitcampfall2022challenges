@@ -1,8 +1,8 @@
-import "../../styles/challenge 4/profileCardComponentStyle.css"
-import mainFirstBall from "../../images/challenge 4/bg-pattern-top.svg";
-import mainSecondBall from "../../images/challenge 4/bg-pattern-bottom.svg";
-import ProfileCardBackgroundImage from "../../images/challenge 4/bg-pattern-card.svg";
-import ProfileCardImage from "../../images/challenge 4/image-victor.jpg";
+import "../../design/challenge 4/profileCardComponentStyle.css"
+import mainFirstBall from "../../assets/challenge 4/bg-pattern-top.svg";
+import mainSecondBall from "../../assets/challenge 4/bg-pattern-bottom.svg";
+import ProfileCardBackgroundImage from "../../assets/challenge 4/bg-pattern-card.svg";
+import ProfileCardImage from "../../assets/challenge 4/image-victor.jpg";
 
 export default function ProfileCardComponent() {
     return (

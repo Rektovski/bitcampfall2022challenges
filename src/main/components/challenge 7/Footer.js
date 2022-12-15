@@ -1,8 +1,8 @@
-import "../../styles/challenge 7/footerStyle.css";
-import footerLogo from "../../images/challenge 7/logo.svg";
-import facebook from "../../images/challenge 7/icon-facebook.svg";
-import instagram from "../../images/challenge 7/icon-instagram.svg";
-import twitter from "../../images/challenge 7/icon-twitter.svg";
+import "../../design/challenge 7/footerStyle.css";
+import footerLogo from "../../assets/challenge 7/logo.svg";
+import facebook from "../../assets/challenge 7/icon-facebook.svg";
+import instagram from "../../assets/challenge 7/icon-instagram.svg";
+import twitter from "../../assets/challenge 7/icon-twitter.svg";
 
 export default function Footer() {
     return (

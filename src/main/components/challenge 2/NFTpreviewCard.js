@@ -1,9 +1,9 @@
-import "../../styles/challenge 2/NFTpreviewCardStyle.css";
-import cardImage from "../../images/challenge 2/image-equilibrium.jpg";
-import etheriumLogo from "../../images/challenge 2/icon-ethereum.svg";
-import clockIcon from "../../images/challenge 2/icon-clock.svg";
-import footerImage from "../../images/challenge 2/image-avatar.png";
-import changedLogo from "../../images/challenge 2/icon-view.svg";
+import "../../design/challenge 2/NFTpreviewCardStyle.css";
+import cardImage from "../../assets/challenge 2/image-equilibrium.jpg";
+import etheriumLogo from "../../assets/challenge 2/icon-ethereum.svg";
+import clockIcon from "../../assets/challenge 2/icon-clock.svg";
+import footerImage from "../../assets/challenge 2/image-avatar.png";
+import changedLogo from "../../assets/challenge 2/icon-view.svg";
 
 export default function NFTpreviewCard() {
     return (

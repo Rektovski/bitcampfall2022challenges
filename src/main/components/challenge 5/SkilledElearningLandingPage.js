@@ -1,9 +1,9 @@
-import "../../styles/challenge 5/skilledElearningLandingPageStyle.css";
+import "../../design/challenge 5/skilledElearningLandingPageStyle.css";
 import {Col, Container, Row} from "react-bootstrap";
-import logoDark from "../../images/challenge 5/logo-dark.svg";
-import logoLight from "../../images/challenge 5/logo-light.svg";
-import imageHero from "../../images/challenge 5/image-hero-desktop.png";
-import imageHeroMobile from "../../images/challenge 5/image-hero-mobile.png";
+import logoDark from "../../assets/challenge 5/logo-dark.svg";
+import logoLight from "../../assets/challenge 5/logo-light.svg";
+import imageHero from "../../assets/challenge 5/image-hero-desktop.png";
+import imageHeroMobile from "../../assets/challenge 5/image-hero-mobile.png";
 import {skilledElearningCardList} from "./skilledElearningCardList";
 
 export default function SkilledElearningLandingPage() {

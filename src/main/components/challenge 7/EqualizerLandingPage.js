@@ -1,4 +1,4 @@
-import "../../styles/challenge 7/equalizerLandingPage.css";
+import "../../design/challenge 7/equalizerLandingPage.css";
 import Header from "./Header";
 import Body from "./Body";
 import Footer from "./Footer";

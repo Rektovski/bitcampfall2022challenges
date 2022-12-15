@@ -1,8 +1,8 @@
-import "../../styles/challenge 3/orderSummaryComponentStyle.css";
-import mainLogo from "../../images/challenge 3/pattern-background-desktop.svg";
-import mainLogoMobile from "../../images/challenge 3/pattern-background-mobile.svg";
-import cardImage from "../../images/challenge 3/illustration-hero.svg";
-import musicLogo from "../../images/challenge 3/icon-music.svg";
+import "../../design/challenge 3/orderSummaryComponentStyle.css";
+import mainLogo from "../../assets/challenge 3/pattern-background-desktop.svg";
+import mainLogoMobile from "../../assets/challenge 3/pattern-background-mobile.svg";
+import cardImage from "../../assets/challenge 3/illustration-hero.svg";
+import musicLogo from "../../assets/challenge 3/icon-music.svg";
 
 export default function OrderSummaryComponent() {
     return (

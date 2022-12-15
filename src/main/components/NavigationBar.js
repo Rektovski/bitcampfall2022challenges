@@ -1,4 +1,4 @@
-import "../styles/navigationBarStyle.css";
+import "../design/navigationBarStyle.css";
 import {Col, Container, Row} from "react-bootstrap";
 import {projectsList} from "./projectsList";
 

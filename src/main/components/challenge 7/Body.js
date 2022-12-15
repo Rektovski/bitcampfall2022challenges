@@ -1,9 +1,9 @@
-import "../../styles/challenge 7/bodyStyle.scss";
+import "../../design/challenge 7/bodyStyle.scss";
 import {Container} from "react-bootstrap";
-import secondPattern from "../../images/challenge 7/bg-pattern-2.svg";
-import mobileImage from "../../images/challenge 7/illustration-app.png";
-import appleIcon from "../../images/challenge 7/icon-apple.svg";
-import androidIcon from "../../images/challenge 7/icon-android.svg";
+import secondPattern from "../../assets/challenge 7/bg-pattern-2.svg";
+import mobileImage from "../../assets/challenge 7/illustration-app.png";
+import appleIcon from "../../assets/challenge 7/icon-apple.svg";
+import androidIcon from "../../assets/challenge 7/icon-android.svg";
 
 export default function Body() {
     return (

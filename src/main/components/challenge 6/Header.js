@@ -1,6 +1,6 @@
-import "../../styles/challenge 6/headerStyle.css";
-import grandmaLogo from "../../images/challenge 6/image-hero.jpg";
-import rightIcon from "../../images/challenge 6/icon-arrow-right.svg";
+import "../../design/challenge 6/headerStyle.css";
+import grandmaLogo from "../../assets/challenge 6/image-hero.jpg";
+import rightIcon from "../../assets/challenge 6/icon-arrow-right.svg";
 
 export default function Header(props) {
     const setLocation = () => {

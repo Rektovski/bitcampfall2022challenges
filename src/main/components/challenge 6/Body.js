@@ -1,8 +1,8 @@
-import "../../styles/challenge 6/bodyStyle.css";
+import "../../design/challenge 6/bodyStyle.css";
 import {Container} from "react-bootstrap";
-import interiorImage1 from "../../images/challenge 6/image-grid-1.jpg";
-import interiorImage2 from "../../images/challenge 6/image-grid-2.jpg";
-import interiorImage3 from "../../images/challenge 6/image-grid-3.jpg";
+import interiorImage1 from "../../assets/challenge 6/image-grid-1.jpg";
+import interiorImage2 from "../../assets/challenge 6/image-grid-2.jpg";
+import interiorImage3 from "../../assets/challenge 6/image-grid-3.jpg";
 
 export default function Body() {
     return (

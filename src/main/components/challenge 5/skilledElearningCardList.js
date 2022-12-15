@@ -1,8 +1,8 @@
-import run from "../../images/challenge 5/icon-animation.svg";
-import design from "../../images/challenge 5/icon-design.svg";
-import photograpy from "../../images/challenge 5/icon-photography.svg";
-import crypto from "../../images/challenge 5/icon-crypto.svg";
-import business from "../../images/challenge 5/icon-business.svg";
+import run from "../../assets/challenge 5/icon-animation.svg";
+import design from "../../assets/challenge 5/icon-design.svg";
+import photograpy from "../../assets/challenge 5/icon-photography.svg";
+import crypto from "../../assets/challenge 5/icon-crypto.svg";
+import business from "../../assets/challenge 5/icon-business.svg";
 
 export const skilledElearningCardList = [
     {

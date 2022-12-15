@@ -1,5 +1,5 @@
-import "../../styles/challenge 1/QRCodeStyle.css";
-import qrlogo from "../../images/challenge 1/image-qr-code.png";
+import "../../design/challenge 1/QRCodeStyle.css";
+import qrlogo from "../../assets/challenge 1/image-qr-code.png";
 
 export default function QRCodeCard() {
     return (
