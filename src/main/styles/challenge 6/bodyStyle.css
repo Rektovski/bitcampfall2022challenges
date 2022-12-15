@@ -1,0 +1,237 @@
+.ArtBody {
+    margin: 180px 0 180px 0;
+}
+
+.BodyPart1 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FirstTextHeader {
+    font-family: 'Big Shoulders Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #151515;
+    height: 120px;
+    width: 350px;
+    margin: 32px 0 32px 0;
+}
+
+.FirstTextBody {
+    height: 128px;
+    width: 350px;
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #444444;
+    margin-bottom: 32px;
+}
+
+.rightUpPart {
+    margin-bottom: 30px;
+}
+
+.BodyPart2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.leftPart {
+    margin-right: 30px;
+    height: 720px;
+    width: 635px;
+}
+
+.rightUpPart {
+    height: 313px;
+    width: 445px;
+}
+
+.rightDownPart {
+    width: 445px;
+    height: 377px;
+    background: #151515;
+    padding: 48px;
+}
+
+.Part2LeftImage {
+    height: 720px;
+    width: 635px;
+}
+
+.Part2Title {
+    height: 90px;
+    width: 223px;
+    top: calc(50% - 90px/2 - 68px);
+    font-family: 'Big Shoulders Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.Part2Body {
+    height: 96px;
+    width: 350px;
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+    .FirstTextHeader {
+        height: 135px;
+        width: 223px;
+    }
+
+    .FirstTextBody {
+        height: 140px;
+        width: 223px;
+    }
+
+    .Part1Image {
+        height: 400px;
+        width: 398px;
+    }
+
+
+    .Part2RightUpImage {
+        height: 720px;
+        width: 398px;
+    }
+
+    .rightDownPart {
+        height: 396px;
+        width: 280px;
+    }
+
+    .Part2Title {
+        position: relative;
+        height: 90px;
+        top: calc(50% - 90px/2 - 68px);
+        font-family: 'Big Shoulders Display', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .Part2Body {
+        position: relative;
+        height: 112px;
+        font-family: 'Outfit', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: 223px;
+        margin-top: 50px;
+    }
+
+    .leftPart {
+        margin-right: 11px;
+    }
+
+    .rightUpPart {
+        margin-bottom: 11px;
+    }
+}
+
+@media (max-width: 800px) {
+    .ArtBody {
+        margin: 120px 0 120px 0;
+    }
+
+    .BodyPart1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+
+    .FirstTextHeader {
+        height: 90px;
+        width: 343px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #151515;
+    }
+
+    .FirstTextBody {
+        height: 112px;
+        width: 343px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #444444;
+    }
+
+    .BodyPart2 {
+        display: unset;
+    }
+
+    .Part1Image {
+        height: 320px;
+        width: 343px;
+    }
+
+    .Part2LeftImage {
+        height: 480px;
+        width: 343px;
+    }
+
+    .Part2RightUpImage {
+        height: 200px;
+        width: 343px;
+    }
+
+    .leftPart {
+        margin: 0 0 16px 0;
+    }
+
+    .rightDownPart {
+        height: 293px;
+        width: 343px;
+    }
+
+    .Part2Title {
+        height: 90px;
+        width: 280px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .Part2Body {
+        height: 90px;
+        width: 280px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+}

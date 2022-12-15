@@ -1,0 +1,361 @@
+.locationImage {
+    background-image: url("image-map.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 685px;
+}
+
+.LocationBoxSpaceLocation {
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #151515;
+    transition: all .3s ease-in-out;
+}
+
+.LocationBoxSpaceLocation:hover {
+    cursor: pointer;
+    transition: .3s;
+
+    .LocationRightArrowSpaceLocation {
+        background: black;
+        transition: .3s;
+    }
+
+    .LocationBoxTextLocation {
+        color: whitesmoke;
+        background: #D5966C;
+        transition: .3s;
+    }
+}
+
+.LocationRightArrowSpaceLocation {
+    background: #D5966C;
+    width: 56px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LocationBoxTextLocation {
+    font-family: 'Big Shoulders Display', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationMiddle {
+    display: flex;
+    justify-content: space-around;
+    height: 548px;
+    width: 100vw;
+    background: #151515;
+}
+
+.middleLeft {
+    height: 140px;
+    width: 264px;
+    position: relative;
+    left: 0;
+    right: 68.47%;
+    top: calc(50% - 140px/2 - 88px);
+    font-family: 'Big Shoulders Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.middleRight {
+    position: relative;
+    top: -15%;
+}
+
+.Right1 {
+    height: 36px;
+    width: 350px;
+    position: relative;
+    left: 0;
+    right: 21.35%;
+    top: calc(50% - 36px/2 - 60px);
+    font-family: 'Big Shoulders Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+}
+
+.Right2 {
+    height: 96px;
+    width: 445px;
+    position: relative;
+    top: calc(50% - 96px/2 + 30px);
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.Right3 {
+    position: relative;
+    height: 128px;
+    width: 540px;
+    top: calc(50% - 128px/2 + 94px);
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.locationFooter {
+    height: 244px;
+    color: black;
+    background: #D5966C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationFooterLastPart {
+    height: 84px;
+    width: 1110px;
+    display: flex;
+}
+
+.locFooterLeft {
+    position: relative;
+    left: 0;
+    right: 78.14%;
+    top: 0;
+    bottom: 30.95%;
+    width: 159.57235717773438px;
+    font-family: 'Big Shoulders Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 140.43px;
+}
+
+.locFooterMiddle {
+    height: 84px;
+    width: 430px;
+    font-family: 'Outfit', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 200px 0 0;
+}
+
+.locFooterSocialIcon {
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 0 10px;
+    transition: .3s;
+}
+
+.locFooterSocialIcon:hover {
+    cursor: pointer;
+    transition: .3s;
+    background: white;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .LocationBoxSpaceLocation {
+        position: absolute;
+        width: 264px;
+        height: 72px;
+        left: 39px;
+        top: 0;
+    }
+
+    .middleLeft {
+        height: 100px;
+        width: 223px;
+        left: 0;
+        right: 67.63%;
+        top: calc(50% - 100px/2 - 84px);
+        font-family: 'Big Shoulders Display', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .Right1 {
+        height: 32px;
+        width: 350px;
+        left: 0;
+        right: 12.06%;
+        top: calc(50% - 32px/2 - 118px);
+        font-family: 'Big Shoulders Display', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #D5966C;
+    }
+
+    .Right2 {
+        height: 84px;
+        width: 398px;
+        left: 0;
+        right: 0;
+        top: calc(50% - 160px/2);
+        font-family: 'Outfit', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .Right3 {
+        height: 112px;
+        width: 398px;
+        left: 0;
+        right: 0;
+        top: calc(50% - 180px/2 + 78px);
+        font-family: 'Outfit', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .locationFooterLastPart {
+        height: 104px;
+        width: 689px;
+    }
+
+    .locFooterLeft {
+        height: 40px;
+        width: 110.0499038696289px;
+        margin-right: 64.95px;
+    }
+
+    .locFooterMiddle {
+        height: 104px;
+        width: 281px;
+        font-family: 'Outfit', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .LocationBoxSpaceLocation {
+        top: 0;
+        left: 0;
+    }
+
+    .locationMiddle {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .middleLeft {
+        height: 45px;
+        width: 343px;
+        right: 4.27%;
+        top: 0;
+        font-family: 'Big Shoulders Display', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .Right1 {
+        height: 32px;
+        width: 343px;
+        left: 0;
+        right: 0;
+        top: calc(50% - 32px/2 - 100px);
+        font-family: 'Big Shoulders Display', serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #D5966C;
+    }
+
+    .Right2 {
+        height: 84px;
+        left: 0;
+        right: 0;
+        top: calc(50% - 84px/2 - 54px);
+        font-family: 'Outfit', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: 343px;
+    }
+
+    .Right3 {
+        height: 140px;
+        left: 0;
+        right: 0;
+        top: calc(50% - 140px/2 );
+        font-family: 'Outfit', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        width: 343px;
+    }
+
+    .locationFooter {
+        height: 336px;
+        width: 100%;
+    }
+
+    .locationFooterLastPart {
+        height: unset;
+        width: unset;
+        display: unset;
+    }
+
+    .locFooterMiddle {
+        margin: 40px 0 40px 0;
+    }
+}

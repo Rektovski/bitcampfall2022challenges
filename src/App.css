@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display');
+@import url('https://fonts.googleapis.com/css2?family=Outfit');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans');
+
 .App {
   cursor: default;
   font-family: "Comic Sans MS", monospace, sans-serif, serif;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 a {

@@ -20,6 +20,7 @@ export default function NavigationBar() {
                                 <a href={`https://bitcamp2022challenges.netlify.app/${item.link}`} target={"_blank"} rel={"noreferrer"}>
                                     <div>Challenge: #{id + 1}</div>
                                     <div>{item.name}</div>
+                                    <div>{item.desc}</div>
                                 </a>
                             </Col>
                         ))

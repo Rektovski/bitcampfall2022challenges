@@ -1,0 +1,95 @@
+.ArtFooter {
+  height: 244px;
+  background: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ArtFooterLastPart {
+  height: 84px;
+  width: 1110px;
+  display: flex;
+}
+
+.ArtFooterLeft {
+  position: relative;
+  left: 0;
+  right: 78.14%;
+  top: 0;
+  bottom: 30.95%;
+  color: #FFFFFF;
+  width: 159.5723571777px;
+  font-family: "Big Shoulders Display", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-right: 140.43px;
+}
+
+.ArtFooterMiddle {
+  height: 84px;
+  width: 430px;
+  font-family: "Outfit", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin: 20px 200px 0 0;
+}
+
+.ArtFooterSocialIcon {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.ArtFooterSocialIcon:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background: #D5966C;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  .ArtFooterLastPart {
+    height: 104px;
+    width: 689px;
+  }
+  .ArtFooterLeft {
+    height: 40px;
+    width: 110.0499038696px;
+    margin-right: 64.95px;
+  }
+  .ArtFooterMiddle {
+    height: 104px;
+    width: 281px;
+    font-family: "Outfit", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-right: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .ArtFooter {
+    height: 336px;
+    width: 100%;
+  }
+  .ArtFooterLastPart {
+    height: unset;
+    width: unset;
+    display: unset;
+  }
+  .ArtFooterMiddle {
+    margin: 40px 0 40px 0;
+  }
+}
+
+/*# sourceMappingURL=footerStyle.css.map */

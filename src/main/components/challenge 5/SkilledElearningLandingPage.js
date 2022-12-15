@@ -5,7 +5,6 @@ import logoLight from "../../images/challenge 5/logo-light.svg";
 import imageHero from "../../images/challenge 5/image-hero-desktop.png";
 import imageHeroMobile from "../../images/challenge 5/image-hero-mobile.png";
 import {skilledElearningCardList} from "./skilledElearningCardList";
-import Grid from '@mui/material/Grid';
 
 export default function SkilledElearningLandingPage() {
 

@@ -18,5 +18,10 @@ export const projectsList = [
     {
         name: "Skilled Elearning Landing Page",
         link: "skilledelearninglandingpage"
+    },
+    {
+        name: "Art Gallery",
+        link: "artgallery",
+        desc: "Minimalist design repsonsive 2 page website"
     }
 ]
