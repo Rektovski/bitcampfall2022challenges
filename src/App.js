@@ -7,13 +7,13 @@ import ProfileCardComponent from "./main/components/challenge 4/ProfileCardCompo
 import NavigationBar from "./main/components/NavigationBar";
 import SkilledElearningLandingPage from "./main/components/challenge 5/SkilledElearningLandingPage";
 import ArtGallery from "./main/components/challenge 6/ArtGallery";
+import EqualizerLandingPage from "./main/components/challenge 7/EqualizerLandingPage";
 
 export default function App() {
     return (
         <div className="App">
             <BrowserRouter>
                 <Routes>
-
                     <Route path={""} element={<NavigationBar/>}></Route>
                     <Route path={"/qrcodecard"} element={<QRCodeCard/>}></Route>
                     <Route path={"/nftpreviewcard"} element={<NFTpreviewCard/>}></Route>
@@ -21,6 +21,8 @@ export default function App() {
                     <Route path={"/profilecard"} element={<ProfileCardComponent/>}></Route>
                     <Route path={"/skilledelearninglandingpage"} element={<SkilledElearningLandingPage/>}></Route>
                     <Route path={"/artgallery"} element={<ArtGallery/>}></Route>
+                    <Route path={"/equalizerlandingpage"} element={<EqualizerLandingPage/>}></Route>
+                    <Route path={"*"} action={()=>window.location.replace('/')}></Route>
                 </Routes>
             </BrowserRouter>
         </div>

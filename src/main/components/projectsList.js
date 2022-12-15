@@ -23,5 +23,9 @@ export const projectsList = [
         name: "Art Gallery",
         link: "artgallery",
         desc: "Minimalist design repsonsive 2 page website"
+    },
+    {
+        name: "Equalizer Landing Page",
+        link: "equalizerlandingpage",
     }
 ]
