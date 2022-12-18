@@ -1,0 +1,275 @@
+.backgroundImage {
+    z-index: -1;
+    width: 100%;
+}
+
+.fyloBodySpaceBackgroundColor {
+    background: #F8F8FE;
+}
+
+.fyloBody {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.fyloBodyImageSpace {
+    width: 542px;
+    height: 409px;
+}
+
+.fyloBodyImage {
+    height: 100%;
+    width: 100%;
+}
+
+.fyloBodyFormButton {
+    height: 56px;
+    width: 200px;
+    border-radius: 3.125px;
+    border: 0;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.fyloBodyFormButton:hover {
+    transition: .3s;
+    cursor: pointer;
+    background: #6C9BFF;
+}
+
+.fyloBodyTitle {
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #07043B;
+    width: 627px;
+}
+
+.fyloBodyText {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+    color: #07043B;
+    margin: 20px 0 20px 0;
+    width: 529px;
+}
+
+.fyloBodyLinkSection {
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    width: 166px;
+}
+
+.fyloBodyTextLink {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-right: 5px;
+    color: #3DA08F;
+    border-bottom: 1px solid #3DA08F;
+    padding-bottom: 3px;
+}
+
+.fyloBodyTextLink:hover {
+    transition: .3s;
+    color: #71DFCC;
+    cursor: pointer;
+    border-bottom: 1px solid #71DFCC;
+}
+
+.rightArrowImage {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.fyloBodyCard {
+    padding: 20px 40px 20px 40px;
+    margin-top: 40px;
+    height: 215px;
+    width: 356px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 5px 0 10px 5px rgba(56, 56, 56, 0.0458843);
+}
+
+.fyloBodyCardQuotation {
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 33px;
+    color: #07043B;
+}
+
+.fyloProfile {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.fyloBodyCardFooter {
+    display: flex;
+    margin-top: 20px;
+}
+
+.fyloBodyCardProfileTitle {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.55px;
+    color: #07043B;
+}
+
+.fyloBodyCardProfileBody {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    color: #07043B;
+}
+
+.fyloBodyCardTitle {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #07043B;
+}
+
+.fyloAccess {
+    background: #575988;
+}
+
+.fyloAccessSpace {
+    height: 369.71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fyloAccessLeft {
+    width: 300px;
+}
+
+.fyloAccessLeftTitle {
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.fyloAccessLeftBody {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.accessForm {
+    margin-right: 20px;
+    width: 320px;
+}
+
+.accessFormButton {
+    height: 56px;
+    width: 200px;
+    border-radius: 3.125px;
+    border: 0;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.accessFormButton:hover {
+    transition: .3s;
+    cursor: pointer;
+    background: #6C9BFF;
+}
+
+.accessEmailError {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    .fyloBodySpace {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fyloBody {
+        flex-direction: column-reverse;
+    }
+
+    .fyloBodyLeft {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .fyloBodyTitle {
+        width: 300px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .fyloBodyText {
+        width: 300px;
+    }
+
+    .fyloBodyImageSpace {
+        margin: 50px 0 50px 0;
+        height: 225px;
+        width: 304px;
+    }
+
+    .fyloAccessLeftSpace {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fyloAccessSpace {
+        display: unset;
+    }
+
+    .fyloBodyCard {
+        width: 300px;
+        height: 230px;
+    }
+
+    .fyloAccessLeftTitle, .fyloAccessLeftBody, .fyloFormSpace{
+        padding: 20px 0 20px 0;
+    }
+}
+

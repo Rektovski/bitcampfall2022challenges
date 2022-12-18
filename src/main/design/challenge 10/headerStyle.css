@@ -1,0 +1,104 @@
+.fyloHeader {
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.fyloHeaderImageSpace {
+    height: 474px;
+    width: 640px;
+}
+
+.fyloHeaderImage {
+    height: 100%;
+    width: 100%;
+}
+
+.fyloHeaderFormButton {
+    height: 56px;
+    width: 200px;
+    border-radius: 3.125px;
+    border: 0;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.fyloHeaderFormButton:hover {
+    transition: .3s;
+    cursor: pointer;
+    background: #6C9BFF;
+}
+
+.fyloForm {
+    margin-right: 20px;
+    width: 320px;
+}
+
+.fyloHeaderTitle {
+    font-family: 'Raleway', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #07043B;
+    width: 627px;
+    height: 120px;
+}
+
+.fyloHeaderBody {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53125px;
+    color: #07043B;
+    margin: 20px 0 20px 0;
+    width: 585px;
+}
+
+.fyloEmailError {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #EF4877;
+    margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    .fyloHeaderSpace {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fyloHeader {
+        flex-direction: column-reverse;
+    }
+
+    .fyloHeaderLeft {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .fyloHeaderTitle {
+        width: 300px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .fyloHeaderBody {
+        width: 300px;
+    }
+
+    .fyloHeaderImageSpace {
+        margin: 50px 0 50px 0;
+        height: 225px;
+        width: 304px;
+    }
+}
+

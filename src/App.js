@@ -10,6 +10,7 @@ import ArtGallery from "./main/components/challenge 6/ArtGallery";
 import EqualizerLandingPage from "./main/components/challenge 7/EqualizerLandingPage";
 import TypemasterLandingPage from "./main/components/challenge 8/TypemasterLandingPage";
 import FourCardFeatureSection from "./main/components/challenge 9/FourCardFeatureSection";
+import FyloLandingPage from "./main/components/challenge 10/FyloLandingPage";
 
 export default function App() {
     return (
@@ -26,7 +27,8 @@ export default function App() {
                     <Route path={"/equalizerlandingpage"} element={<EqualizerLandingPage/>}></Route>
                     <Route path={"/typemasterprelaunchlandingpage"} element={<TypemasterLandingPage/>}></Route>
                     <Route path={"/fourCardFeatureSection"} element={<FourCardFeatureSection/>}></Route>
-                    <Route path={"*"} action={()=>window.location.replace('/')}></Route>
+                    <Route path={"/fylolandingpage"} element={<FyloLandingPage/>}></Route>
+                    <Route path={"*"} element={<App/>}></Route>
                 </Routes>
             </BrowserRouter>
 

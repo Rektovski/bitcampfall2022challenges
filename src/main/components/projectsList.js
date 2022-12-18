@@ -35,5 +35,10 @@ export const projectsList = [
     {
         name: "Four Card Feature Section",
         link: "fourCardFeatureSection"
+    },
+    {
+        name: "Fylo Landing Page",
+        link: "fylolandingpage",
+        desc: 'Fylo Landing Page with two column layout'
     }
 ]

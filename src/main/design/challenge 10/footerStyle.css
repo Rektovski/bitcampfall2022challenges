@@ -1,0 +1,97 @@
+.fyloFooter {
+    background: #07043B;
+}
+
+.fyloFooterSpace {
+    height: 391px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fyloFooterLogoSpace {
+    width: 166px;
+    padding-top: 70px;
+}
+
+.fyloFooterLogo {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(11%) saturate(7455%) hue-rotate(185deg) brightness(113%) contrast(115%);
+}
+
+.fyloFooterFirstBody {
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+.fyloFooterFirstIcon {
+    margin-right: 20px;
+}
+
+.fyloFooterFirstText {
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.fyloFooterRight {
+    display: flex;
+    padding-top: 100px;
+}
+
+.fyloFooterRightMargin {
+    padding-top: 130px;
+}
+
+.fyloFooterRightMarginSocialSpace {
+    padding-top: 150px;
+}
+
+.fyloFooterLinks {
+    color: whitesmoke;
+    transition: all .3s ease-in-out;
+    margin: 20px 0 20px 0;
+}
+
+.fyloFooterLinks:hover {
+    transition: .3s;
+    cursor: pointer;
+    color: #6C9BFF;
+}
+
+.fyloSocialIcon {
+    transition: all .3s ease-in-out;
+    margin: 0 20px 0 20px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(6493%) hue-rotate(85deg) brightness(104%) contrast(101%);
+}
+
+.fyloSocialIcon:hover {
+    transition: .3s;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(22%) sepia(35%) saturate(3736%) hue-rotate(198deg) brightness(103%) contrast(100%);
+}
+
+@media (max-width: 800px) {
+    .fyloFooterSpace {
+        display: unset;
+    }
+
+    .fyloFooterRightMargin {
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fyloFooterLinks {
+        margin: 0 10px 0 10px;
+    }
+
+    .fyloFooterRightMarginSocialSpace {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+}
