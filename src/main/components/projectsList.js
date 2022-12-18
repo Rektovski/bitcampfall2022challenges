@@ -40,5 +40,10 @@ export const projectsList = [
         name: "Fylo Landing Page",
         link: "fylolandingpage",
         desc: 'Fylo Landing Page with two column layout'
-    }
+    },
+    {
+        name: "Calculator",
+        link: "calculator",
+        desc: "This calculator is similar for bank structure"
+    },
 ]

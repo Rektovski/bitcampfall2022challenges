@@ -1,0 +1,214 @@
+.CustomTipInput, .dollarInput {
+    outline: none;
+}
+
+.calc {
+    padding: 20px 0 20px 0;
+    background: #C5E4E7;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.calcLogoSpace {
+    width: 86.66px;
+    height: 53.14px;
+}
+
+.calcLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.calcCard {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.calcLeft {
+    width: 379px;
+}
+
+.inputName {
+    font-family: 'Space Mono', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5E7A7D;
+    padding: 10px 0 10px 0;
+}
+
+.calcTip {
+
+}
+
+.calcTipLeft, .calcTipRight {
+    display: flex;
+}
+
+.dollarInput {
+    background: #F3F9FA;
+    border: 0;
+    text-align: right;
+    padding: 10px 15px;
+    font-family: 'Space Mono', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #00474B;
+    transition: all .3s ease-in-out;
+}
+
+.dollarInput:focus {
+    border: 2px solid #00FFF8;
+    border-radius: 10px;
+}
+
+.CustomTipInput {
+    outline: none;
+}
+
+.CustomTipInput:focus {
+    border: 1px solid #00FFF8;
+    border-radius: 10px;
+}
+
+.dollarInputImage {
+    position: relative;
+    top: 0;
+    left: -310px;
+    background: #F3F9FA;
+    border-radius: 5px;
+}
+
+.CustomTipInput {
+    width: 100px;
+    height: 48px;
+    text-align: center;
+    background: #F3F9FA;
+    border: 0;
+    margin: 5px;
+}
+
+.CustomTipInput::placeholder {
+    text-align: center;
+}
+
+.tipButton {
+    width: 100px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00474B;
+    color: whitesmoke;
+    font-family: 'Space Mono', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 5px;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+}
+
+.tipButton:hover {
+    transition: .3s;
+    cursor: pointer;
+    border: 2px solid #26C2AE;
+    background: #9FE8DF;
+    color: #00474B;
+}
+
+.calcRight {
+    height: 417px;
+    width: 413px;
+    border-radius: 15px;
+    background: #00474B;
+    padding: 20px 40px 20px 40px;
+}
+
+.calcRightLeftSide {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+
+.calcRightLeftSideTitle {
+    font-family: 'Space Mono', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.calcRightLeftSideBody {
+    font-family: 'Space Mono', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7F9D9F;
+}
+
+.calcRightCost {
+    font-family: 'Space Mono', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 33px;
+    text-align: right;
+    letter-spacing: -1px;
+    color: #26C2AE;
+}
+
+.calcRightBottomSpace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.calcRightBottom {
+    background: #26C2AE;
+    border-radius: 5px;
+    width: 333px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.calcRightBottom:hover {
+    transition: .3s;
+    background: #9FE8DF;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .calcCard {
+        display: unset;
+        width: 375px;
+    }
+
+    .calcRight {
+        margin-top: 20px;
+        width: 327px;
+    }
+
+    .calcLogoSpace {
+        margin: 20px 0 20px 0;
+    }
+}

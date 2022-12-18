@@ -11,6 +11,7 @@ import EqualizerLandingPage from "./main/components/challenge 7/EqualizerLanding
 import TypemasterLandingPage from "./main/components/challenge 8/TypemasterLandingPage";
 import FourCardFeatureSection from "./main/components/challenge 9/FourCardFeatureSection";
 import FyloLandingPage from "./main/components/challenge 10/FyloLandingPage";
+import Calculator from "./main/components/challenge 11/Calculator";
 
 export default function App() {
     return (
@@ -28,6 +29,7 @@ export default function App() {
                     <Route path={"/typemasterprelaunchlandingpage"} element={<TypemasterLandingPage/>}></Route>
                     <Route path={"/fourCardFeatureSection"} element={<FourCardFeatureSection/>}></Route>
                     <Route path={"/fylolandingpage"} element={<FyloLandingPage/>}></Route>
+                    <Route path={"/Calculator"} element={<Calculator/>}></Route>
                     <Route path={"*"} element={<App/>}></Route>
                 </Routes>
             </BrowserRouter>
