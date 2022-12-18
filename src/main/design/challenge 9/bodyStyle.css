@@ -1,0 +1,110 @@
+.fourCardLine1, .fourCardLine2,
+.fourCardLine3, .fourCardLine4 {
+    height: 4px;
+    width: 100%;
+}
+
+.fourCardLine1 {
+    background: #44D3D2;
+}
+
+.fourCardLine2 {
+    background: #EA5454;
+}
+
+.fourCardLine3 {
+    background: #FCAE4A;
+}
+
+.fourCardLine4 {
+    background: #549EF2;
+}
+
+.fourCardsSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card1, .card2, .card3, .card4 {
+    height: 250px;
+    width: 350px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 8px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    overflow: hidden;
+}
+
+.card1 {
+    margin-right: 20px;
+}
+
+.card2 {
+    margin-bottom: 20px;
+}
+
+.card3 {
+    margin-top: 20px;
+}
+
+.card4 {
+    margin-left: 20px;
+}
+
+.fourCardTitle {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+.fourCardBody {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.fourCardsCardLogo {
+    display: flex;
+    margin-top: 60px;
+}
+
+.cardWithoutHeaderLine {
+    padding: 10px 40px 10px 40px;
+}
+
+@media (max-width: 1200px) {
+    .fourCardsSpaceCenterForSmallScreens {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fourCardsSpace {
+        display: block;
+    }
+
+    .card1 {
+        margin-right: 0;
+    }
+
+    .card2 {
+        margin: 20px 0 20px 0;
+    }
+
+    .card3 {
+        margin: 20px 0 20px 0;
+    }
+
+    .card4 {
+        margin-left: 0;
+    }
+}

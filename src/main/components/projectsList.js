@@ -31,5 +31,9 @@ export const projectsList = [
     {
         name: "Typemaster Pre Launch Landing Page",
         link: "typemasterprelaunchlandingpage"
+    },
+    {
+        name: "Four Card Feature Section",
+        link: "fourCardFeatureSection"
     }
 ]

@@ -1,0 +1,39 @@
+.fourCardHeaderSpace {
+    padding: 30px 0 30px 0;
+}
+
+.fourCardHeader1 {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 275;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+}
+
+.fourCardHeader2 {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #4D4F62;
+}
+
+.fourCardHeader3 {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 540px;
+}
