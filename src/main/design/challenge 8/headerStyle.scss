@@ -1,0 +1,133 @@
+.typeHeaderHead {
+    padding: 72px 0 72px 0;
+    display: flex;
+}
+
+.typeHeaderLogo {
+    height: 40px;
+    width: 40px;
+}
+
+.typeHeaderPreOrderSpace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    border-radius: 8px;
+    background: #E8EFF2;
+    transition: all .3s ease-in-out;
+}
+
+.typeHeaderPreOrderSpace:hover {
+    transition: .3s;
+    cursor: pointer;
+    background: #162542;
+
+    .typeHeaderPreOrder {
+        color: white;
+    }
+}
+
+.typeHeaderPreOrder {
+    height: 26px;
+    font-family: 'Barlow', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #162542;
+}
+
+.typeHeaderBodyLeftTitle {
+    font-family: 'Barlow', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.typeHeaderBodyLeftCenter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.typeHeaderBodyLeftBody {
+    font-family: 'Barlow', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin: 24px 0 40px 0;
+}
+
+.typeHeaderBodyBottom {
+    display: flex;
+    align-items: center;
+}
+
+.typeHeaderBodyBottomPreOrderSpace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    border-radius: 8px;
+    background: #F16718;
+    height: 58px;
+    transition: all .3s ease-in-out;
+    margin-right: 60px;
+}
+
+.typeHeaderBodyBottomPreOrderSpace:hover {
+    transition: .3s;
+    cursor: pointer;
+    background: #FF9B62;
+}
+
+.typeHeaderBodyBottomPreOrder {
+    height: 26px;
+    font-family: 'Barlow', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.typeHeaderBodyBottomRelease {
+    font-family: 'Barlow', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+}
+
+.typeHeaderBodyRightImage {
+    width: 540px;
+    height: 480px;
+    background: #D8D8D8;
+    border-radius: 20px;
+}
+
+.typeHeaderBodyRightRectangleSpace {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+}
+
+.typeHeaderBodyRightRectangle {
+    position: relative;
+    height: 240px;
+    width: 255px;
+    border-radius: 20px;
+    left: calc(107% - 255px/2);
+}
+
+@media (max-width: 1200px) {
+    .typeHeaderBodyRightRectangle {
+        display: none;
+    }
+}

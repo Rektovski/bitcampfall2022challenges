@@ -8,6 +8,7 @@ import NavigationBar from "./main/components/NavigationBar";
 import SkilledElearningLandingPage from "./main/components/challenge 5/SkilledElearningLandingPage";
 import ArtGallery from "./main/components/challenge 6/ArtGallery";
 import EqualizerLandingPage from "./main/components/challenge 7/EqualizerLandingPage";
+import TypemasterLandingPage from "./main/components/challenge 8/TypemasterLandingPage";
 
 export default function App() {
     return (
@@ -22,9 +23,11 @@ export default function App() {
                     <Route path={"/skilledelearninglandingpage"} element={<SkilledElearningLandingPage/>}></Route>
                     <Route path={"/artgallery"} element={<ArtGallery/>}></Route>
                     <Route path={"/equalizerlandingpage"} element={<EqualizerLandingPage/>}></Route>
+                    <Route path={"/typemasterprelaunchlandingpage"} element={<TypemasterLandingPage/>}></Route>
                     <Route path={"*"} action={()=>window.location.replace('/')}></Route>
                 </Routes>
             </BrowserRouter>
+
         </div>
     );
 }

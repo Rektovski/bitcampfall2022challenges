@@ -1,4 +1,4 @@
-import "../../design/challenge 6/headerStyle.css";
+import "../../design/challenge 6/headerStyle.scss";
 import grandmaLogo from "../../assets/challenge 6/image-hero.jpg";
 import rightIcon from "../../assets/challenge 6/icon-arrow-right.svg";
 

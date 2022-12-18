@@ -27,5 +27,9 @@ export const projectsList = [
     {
         name: "Equalizer Landing Page",
         link: "equalizerlandingpage",
+    },
+    {
+        name: "Typemaster Pre Launch Landing Page",
+        link: "typemasterprelaunchlandingpage"
     }
 ]

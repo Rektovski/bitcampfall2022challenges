@@ -1,0 +1,134 @@
+.typeBody {
+    display: flex;
+}
+
+.typeBodyImagesSpace {
+    display: flex;
+}
+
+.typeBodyFirstImageSpace {
+    width: 255px;
+    height: 480px;
+    background: rgb(241,103,24);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.typeBodyFirstImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.25;
+}
+
+.typeBodySecondImageSpace {
+    border-radius: 10px;
+    width: 445px;
+    height: 480px;
+}
+
+.typeBodySecondImage {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.typeBodyRightSideCenter {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.typeBodyRightSide {
+    width: 260px;
+}
+
+.typeBodyRightSideTitle {
+    font-family: 'Barlow', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #162542;
+    margin-bottom: 20px;
+}
+
+.typeBodyRightSideBody {
+    font-family: 'Barlow', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+.typeBodyLeftRectangleSpace {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 950px;
+}
+
+.typeBodyLeftRectangle {
+    position: relative;
+    top: 0;
+    height: 240px;
+    width: 255px;
+    border-radius: 20px;
+    left: calc(-33% - 255px/2);
+}
+
+@media (max-width: 1200px) {
+    .typeBodyFirstImageSpace {
+        width: 214px;
+        height: 320px;
+    }
+
+    .typeBodySecondImageSpace {
+        width: 445px;
+        height: 320px;
+    }
+
+    .typeHeaderBodyRightRectangle {
+        display: none;
+    }
+
+    .typeBody {
+        display: unset;
+    }
+
+    .typeBodyImagesSpace {
+        justify-content: space-between;
+    }
+
+    .typeBodyRightSideCenter {
+        margin: 40px 0 0 0;
+    }
+
+    .typeBodyRightSide {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: unset;
+    }
+
+    .typeBodyRightSideTitle {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .typeBodyLeftRectangleSpace {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .typeBodyRightSide {
+        display: unset;
+        text-align: center;
+    }
+}
