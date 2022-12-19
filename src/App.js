@@ -12,6 +12,7 @@ import TypemasterLandingPage from "./main/components/challenge 8/TypemasterLandi
 import FourCardFeatureSection from "./main/components/challenge 9/FourCardFeatureSection";
 import FyloLandingPage from "./main/components/challenge 10/FyloLandingPage";
 import Calculator from "./main/components/challenge 11/Calculator";
+import TicTacToe from "./main/components/challenge 12/TicTacToe";
 
 export default function App() {
     return (
@@ -30,10 +31,10 @@ export default function App() {
                     <Route path={"/fourCardFeatureSection"} element={<FourCardFeatureSection/>}></Route>
                     <Route path={"/fylolandingpage"} element={<FyloLandingPage/>}></Route>
                     <Route path={"/Calculator"} element={<Calculator/>}></Route>
+                    <Route path={"/tictactoe"} element={<TicTacToe/>}></Route>
                     <Route path={"*"} element={<App/>}></Route>
                 </Routes>
             </BrowserRouter>
-
 
         </div>
     );

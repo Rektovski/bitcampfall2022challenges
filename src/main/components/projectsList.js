@@ -46,4 +46,9 @@ export const projectsList = [
         link: "calculator",
         desc: "This calculator is similar for bank structure"
     },
+    {
+        name: "Tic Tac Toe",
+        link: "tictactoe",
+        desc: "Game about X and O"
+    }
 ]
