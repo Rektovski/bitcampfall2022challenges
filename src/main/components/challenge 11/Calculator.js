@@ -5,11 +5,11 @@ import amountLogo from "../../assets/challenge 11/icon-person.svg";
 import {useEffect, useState} from "react";
 
 export default function Calculator() {
-    const [dollar, setDollar] = useState("");
+    const [dollar, setDollar] = useState(0);
     const [tip, setTip] = useState(1);
     const [amount, setAmount] = useState(1); // People
-    const [person, setPerson] = useState(""); // tip per Person
-    const [all, setAll] = useState(""); // full bill
+    const [person, setPerson] = useState(0); // tip per Person
+    const [all, setAll] = useState(0); // full bill
 
     const resetData = () => {
         setDollar("");
@@ -42,11 +42,11 @@ export default function Calculator() {
     }
 
     useEffect(() => {
-        setPerson(prevState => {
-            prevState = Number(((dollar * (1 + (tip / 100)))).toFixed(2));
+        setPerson(Number(((dollar * (tip / 100)) / amount).toFixed(2)));
+        setAll(prevState => {
+            prevState = Number(((dollar * (1 + (tip / 100))) / amount).toFixed(2));
             return prevState;
         });
-        setAll(Number(((dollar * (tip / 100)) / amount).toFixed(2)));
     }, [dollar, tip, amount])
 
     return (
@@ -125,25 +125,25 @@ export default function Calculator() {
                         <div>
                             <div className={'calcRightLeftSide'}>
                                 <div>
-                                    <div className={'calcRightLeftSideTitle'}>Total</div>
-                                    <div className={'calcRightLeftSideBody'}>/ person</div>
-                                </div>
-                                <div className={'calcRightCost'}>${all}</div>
-                            </div>
-                            <div className={'calcRightLeftSide'}>
-                                <div>
                                     <div className={'calcRightLeftSideTitle'}>Tip Amount</div>
                                     <div className={'calcRightLeftSideBody'}>/ person</div>
                                 </div>
                                 <div className={'calcRightCost'}>${person}</div>
                             </div>
+                            <div className={'calcRightLeftSide'}>
+                                <div>
+                                    <div className={'calcRightLeftSideTitle'}>Total</div>
+                                    <div className={'calcRightLeftSideBody'}>/ person</div>
+                                </div>
+                                <div className={'calcRightCost'}>${all}</div>
+                            </div>
                         </div>
 
                         <div
                             className={'calcRightBottomSpace'}
-                            onClick={resetData}
+                            onClick={dollar && resetData}
                         >
-                            <div className={'calcRightBottom'}>
+                            <div className={`${dollar ? 'calcRightBottom' : 'calcRightBottomReset'}`}>
                                 Reset
                             </div>
                         </div>

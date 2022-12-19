@@ -166,7 +166,7 @@
     font-family: 'Space Mono', serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 32px;
     line-height: 33px;
     text-align: right;
     letter-spacing: -1px;
@@ -178,6 +178,18 @@
     justify-content: center;
     align-items: center;
     margin-top: 160px;
+}
+
+.calcRightBottomReset {
+    background: #0D686D;
+    border-radius: 5px;
+    width: 333px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00474B;
+    mix-blend-mode: normal;
 }
 
 .calcRightBottom {
