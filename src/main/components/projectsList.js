@@ -50,5 +50,9 @@ export const projectsList = [
         name: "Tic Tac Toe",
         link: "tictactoe",
         desc: "Game about X and O"
+    },
+    {
+        name: "F.A.Q Accordion Card",
+        link: 'faqaccordioncard'
     }
 ]

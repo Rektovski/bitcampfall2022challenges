@@ -1,0 +1,148 @@
+.faqAccordionCardSpace {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+}
+
+.faqCard {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px;
+    width: 920px;
+    height: 509px;
+}
+
+.platformSpace {
+    position: relative;
+    left: -100px;
+    width: 471.69px;
+    height: 350px;
+}
+
+.platform {
+    width: 100%;
+    height: 100%;
+}
+
+.faqAccordionTitle {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E1F36;
+}
+
+.accordionTitleSpace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+.accordionTitleSpace:hover {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.accordionTitle {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4C5F;
+    transition: all .3s ease-in-out;
+}
+
+.accordionTitle:hover {
+    transition: .3s;
+    cursor: pointer;
+    color: #F47B56;
+}
+
+.accordionTitle:active {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E1F36;
+}
+
+.accordionBody {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(120, 120, 135, 0);
+    width: 80%;
+    height: 0;
+    transition: all .3s ease-in-out;
+}
+
+.accordionBodyActive {
+    font-family: 'Kumbh Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(120, 120, 135, 1);
+    width: 80%;
+    height: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.accordionArrow {
+    transition: all .3s ease-in-out;
+}
+
+.accordionArrowUp {
+    transition: all .3s ease-in-out;
+}
+
+.platformBox {
+    position: relative;
+    top: -210px;
+    left: -10px;
+}
+
+.platformMobile {
+    height: 200px;
+    width: 300px;
+}
+
+@media (max-width: 950px) {
+    .faqCard {
+        display: unset;
+        background: #FFFFFF;
+        box-shadow: 0 50px 50px -20px rgba(53, 18, 122, 0.497159);
+        border-radius: 23px;
+        width: 355px;
+        height: 509px;
+    }
+
+    .platformSpace {
+        position: relative;
+        left: 0;
+        top: -50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: unset;
+    }
+
+    .platform {
+        display: none;
+        position: unset;
+    }
+}

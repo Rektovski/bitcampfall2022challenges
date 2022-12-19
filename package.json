@@ -8,6 +8,7 @@
     "url": "otarmurmanishvili.netlify.app"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -19,9 +20,9 @@
     "react-router": "^6.4.4",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0",
+    "sass": "^1.56.2",
     "scss": "^0.2.4",
-    "sass": "^1.56.2"
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
