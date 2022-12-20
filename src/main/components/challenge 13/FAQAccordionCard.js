@@ -3,7 +3,6 @@ import platform from "../../assets/challenge 13/illustration-woman-online-deskto
 import platformMobile from "../../assets/challenge 13/illustration-woman-online-mobile.svg";
 import {Accordion, AccordionButton, AccordionPanel, Box, AccordionItem, AccordionIcon} from "@chakra-ui/react";
 
-
 export default function FAQAccordionCard() {
     const accordionList = [
         {

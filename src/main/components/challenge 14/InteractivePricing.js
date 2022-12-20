@@ -2,7 +2,7 @@ import "../../design/challenge 14/interactivePricingComponentStyle.scss";
 import interactiveBackgroundImage from "../../assets/challenge 14/bg-pattern.svg";
 import interTitleImage from "../../assets/challenge 14/pattern-circles.svg";
 import interBird from "../../assets/challenge 14/icon-check.svg";
-import {Slider, SliderTrack, SliderFilledTrack, SliderThumb, Switch} from '@chakra-ui/react'
+import {Slider, SliderTrack, SliderFilledTrack, SliderThumb, Switch} from '@chakra-ui/react';
 import {useEffect, useState} from "react";
 
 export default function InteractivePricing() {
