@@ -80,7 +80,7 @@ export const projectsList = [
     },
     {
         name: "F.A.Q Accordion Card",
-        link: 'faqaccordioncard',
+        link: "faqaccordioncard",
         image: pro13,
     },
     {

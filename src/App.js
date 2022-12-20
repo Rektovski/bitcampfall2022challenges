@@ -1,5 +1,5 @@
 import './App.css';
-import { ChakraProvider } from '@chakra-ui/react'
+import {ChakraProvider} from '@chakra-ui/react'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import QRCodeCard from "./main/components/challenge 1/QRCodeCard";
 import NFTpreviewCard from "./main/components/challenge 2/NFTpreviewCard";
@@ -20,8 +20,8 @@ import InteractivePricing from "./main/components/challenge 14/InteractivePricin
 export default function App() {
     return (
         <>
-            <ChakraProvider>
-                <div className="App">
+            <div className="App">
+                <ChakraProvider>
                     <BrowserRouter>
                         <Routes>
                             <Route path={""} element={<NavigationBar/>}></Route>
@@ -39,11 +39,10 @@ export default function App() {
                             <Route path={"/tictactoe"} element={<TicTacToe/>}></Route>
                             <Route path={"/faqaccordioncard"} element={<FAQAccordionCard/>}></Route>
                             <Route path={"/interactivepricing"} element={<InteractivePricing/>}></Route>
-                            <Route path={"*"} element={<App/>}></Route>
                         </Routes>
                     </BrowserRouter>
-                </div>
-            </ChakraProvider>
+                </ChakraProvider>
+            </div>
         </>
 
     );
