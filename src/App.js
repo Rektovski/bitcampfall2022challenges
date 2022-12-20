@@ -15,6 +15,7 @@ import FyloLandingPage from "./main/components/challenge 10/FyloLandingPage";
 import Calculator from "./main/components/challenge 11/Calculator";
 import TicTacToe from "./main/components/challenge 12/TicTacToe";
 import FAQAccordionCard from "./main/components/challenge 13/FAQAccordionCard";
+import InteractivePricing from "./main/components/challenge 14/InteractivePricing";
 
 export default function App() {
     return (
@@ -37,11 +38,10 @@ export default function App() {
                             <Route path={"/Calculator"} element={<Calculator/>}></Route>
                             <Route path={"/tictactoe"} element={<TicTacToe/>}></Route>
                             <Route path={"/faqaccordioncard"} element={<FAQAccordionCard/>}></Route>
+                            <Route path={"/interactivepricing"} element={<InteractivePricing/>}></Route>
                             <Route path={"*"} element={<App/>}></Route>
                         </Routes>
                     </BrowserRouter>
-
-
                 </div>
             </ChakraProvider>
         </>

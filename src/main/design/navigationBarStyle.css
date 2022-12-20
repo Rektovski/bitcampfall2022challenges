@@ -1,0 +1,14 @@
+.projectsPage {
+    background: #324d5d;
+    color: whitesmoke;
+}
+
+.cardMouseOverChanger {
+    transition: all .3s ease-in-out;
+}
+
+.cardMouseOverChanger:hover {
+    transition: .3s;
+    cursor: pointer;
+    scale: 1.1;
+}
