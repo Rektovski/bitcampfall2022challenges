@@ -10,7 +10,7 @@ import fyloSocialIcon3 from "../../assets/challenge 10/icon-twitter.svg";
 export default function Footer() {
     return (
         <>
-            <div className={'fyloFooter'}>
+            <div id={'fyloFooter'} className={'fyloFooter'}>
                 <Container>
                     <div className={'fyloFooterSpace'}>
                         <div>

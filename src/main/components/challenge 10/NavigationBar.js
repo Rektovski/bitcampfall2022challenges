@@ -12,9 +12,9 @@ export default function NavigationBar() {
                             <img className={'fyloLogo'} src={fyloLogo} alt={'fyloLogo'}/>
                         </div>
                     </div>
-                    <a href={"#"} className={'fyloNavLinks'}>Features</a>
-                    <a href={"#"} className={'fyloNavLinks'}>Team</a>
-                    <a href={"#"} className={'fyloNavLinks'}>Sign in</a>
+                    <a href={"#fyloHeader"} className={'fyloNavLinks'}>Features</a>
+                    <a href={"#fyloBody"} className={'fyloNavLinks'}>Team</a>
+                    <a href={"#fyloFooter"} className={'fyloNavLinks'}>Sign in</a>
                 </div>
             </Container>
         </>

@@ -36,7 +36,7 @@ export default function Header() {
     return (
         <>
             <Container>
-                <div className={'fyloHeaderSpace'}>
+                <div id={'fyloHeader'} className={'fyloHeaderSpace'}>
                     <div className={'fyloHeader'}>
                         <div className={'fyloHeaderLeft'}>
                             <div className={'fyloHeaderTitle'}>

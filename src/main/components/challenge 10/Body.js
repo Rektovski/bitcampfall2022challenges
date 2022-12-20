@@ -38,7 +38,7 @@ export default function Body() {
 
     return (
         <>
-            <div>
+            <div id={'fyloBody'}>
                 <img className={'backgroundImage'} src={backgroundImage} alt={'backgroundImage'}/>
                 <div className={'fyloBodySpaceBackgroundColor'}>
                     <Container>

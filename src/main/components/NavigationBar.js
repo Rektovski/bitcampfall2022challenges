@@ -17,8 +17,10 @@ export default function NavigationBar() {
                                     key={id} sm={12} md={6} lg={4} xl={4} xxl={4}
                                     className={'g-5 text-center p-5 cardMouseOverChanger'}
                                 >
-                                    <button
-                                        onClick={() => window.open(`https://bitcamp2022challenges.netlify.app//${item.link}`, '_blank')}
+                                    <a
+                                        href={`https://bitcamp2022challenges.netlify.app/${item.link}`}
+                                        target={"_blank"}
+                                        rel={"noreferrer"}
                                     >
                                         <div className={'my-2 bg-dark rounded p-2 text-light'}>Challenge:
                                             #{id + 1}</div>
@@ -27,7 +29,7 @@ export default function NavigationBar() {
                                         </div>
                                         <div className={'my-2 bg-dark rounded p-2 text-light'}>{item.name}</div>
                                         <div className={'my-2 bg-dark rounded p-2 text-light'}>{item.desc}</div>
-                                    </button>
+                                    </a>
                                 </Col>
                             ))
                         }

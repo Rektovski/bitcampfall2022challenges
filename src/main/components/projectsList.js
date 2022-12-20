@@ -10,8 +10,8 @@ import pro9 from "../assets/allProjectsScreenshots/pro9.png";
 import pro10 from "../assets/allProjectsScreenshots/pro10.png";
 import pro11 from "../assets/allProjectsScreenshots/pro11.png";
 import pro12 from "../assets/allProjectsScreenshots/pro12.png";
-// import pro13 from "../assets/allProjectsScreenshots/pro13.png";
-// import pro14 from "../assets/allProjectsScreenshots/pro14.png";
+import pro13 from "../assets/allProjectsScreenshots/pro13.png";
+import pro14 from "../assets/allProjectsScreenshots/pro14.png";
 
 export const projectsList = [
     {
@@ -78,14 +78,14 @@ export const projectsList = [
         image: pro12,
         desc: "Game about X and O"
     },
-    // {
-    //     name: "F.A.Q Accordion Card",
-    //     link: "faqaccordioncard",
-    //     image: pro13,
-    // },
-    // {
-    //     name: "Interactive Pricing Component",
-    //     link: "interactivepricing",
-    //     image: pro14
-    // }
+    {
+        name: "F.A.Q Accordion Card",
+        link: "faqaccordioncard",
+        image: pro13,
+    },
+    {
+        name: "Interactive Pricing Component",
+        link: "interactivepricing",
+        image: pro14
+    }
 ]
